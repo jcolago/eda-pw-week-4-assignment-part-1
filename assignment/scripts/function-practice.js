@@ -24,16 +24,18 @@ console.log( helloName("Joe"))
 
 // 3. Function to add two numbers together & return the result
 function addNumbers(firstNumber, secondNumber) {
-  result = firstNumber + secondNumber;
-  return result
+  let sum = firstNumber + secondNumber;
+  return sum
   // return firstNumber + secondNumber;
 }
 console.log(addNumbers(5, 9))
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree() {
-
+function multiplyThree(num1, num2, num3) {
+  let result = num1 * num2 *  num3;
+  return result;
 }
+console.log(multiplyThree(3, 6, 2 ))
 
 
 // 5. Function that will return true if a number is positive, 
